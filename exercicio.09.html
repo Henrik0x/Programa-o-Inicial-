@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 09</title>
+</head>
+<style>
+.caixa{background-color: yellow;
+margin:30px;
+padding:15px;}
+
+.caixa2{background-color: yellowgreen;
+margin: 120px;
+padding: 50px;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 100px;
+border-radius:50% ;}
+
+.arredondado{
+border: 2px solid rgb(223, 39, 39);
+border-radius: 30px;  
+width: 400px;
+padding: 10px;
+margin-bottom: 30px;
+}
+
+.circula{
+border: 10px solid gold;
+border-radius: 200%; 
+margin-right: 60px;
+padding: 50px;
+width: 300px;
+height: 200px;
+background-color: rgb(3, 57, 104);
+}
+
+.overflow-visible {
+width: 300px;
+height: 80px;
+background-color: lightcoral;
+margin-bottom: 30px;
+overflow: visible;/*conteudo que ultrapassar fica visivel*/}
+
+.overflow-hidden{
+width: 200px;
+height: 60px;
+background-color: brown;
+margin-bottom: 10px;
+overflow:hidden; /*corte do conteudo excedente*/
+}
+
+.overflow-scroll {
+width: 200px;
+height: 60px;
+background-color: blue;
+overflow: scroll; /*barras de rolagem sempre que necessario*/
+
+}
+
+body{ /* remove as margens padrão para evitar barras de rolagem indese */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.conteudo{ /* Exemplo de conteudo grande para usar */
+height: 50px;
+background-color: rgba(83, 83, 83, 0.993);
+color: yellow;
+text-align: center;
+width: 100%; 
+}
+
+.rodape{
+position: relative;
+bottom: 1; /* fixa na parte de baixo */
+left: 10; /* inicia no canto esquerdo */
+width: 100%; /* ocupa toda a largura da tela*/
+background: rgb(72, 72, 83);
+color: rgb(216, 213, 32);
+text-align: center;
+padding: 5px 0;
+
+
+}
+</style>
+<body>
+    <div class="container">
+        
+            
+<div class="conteudo"><h1>BEM VINDOS </h1></div>
+    <div class="body"></div>
+    <BR>
+    <BR>
+    <div class="caixa"> <h1>USANDO MARGIN</h1></div>
+    <div class="caixa2"><h1>USANDO MARGIN 2.0</h1></div>
+    <div class="arredondado"> <h1> USANDO ARREDONDADO</h1></div>
+    <div class="circula"> <h1> USANDO CIRCULA</h1></div> 
+    <div class="overflow-visible"><h2> sejam bem vindos a pagina coloquem sua localizacao para frete</h2></div>
+    <div class="overflow-hidden"><h2> sejam bem vindos a pagina coloquem sua localizacao para frete</h2></div>
+    <div class="overflow-scroll"><h2> sejam bem vindos a pagina coloquem sua localizacao para frete</h2></div>
+    <footer class="rodape">
+    &copy; 2025 - Systema Novo Teste Beta
+    @henrik.01x testando nova página 
+    </footer>
+
+
+    
+    
+</body>
+</html>
